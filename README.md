@@ -15,7 +15,7 @@ A minimal Neovim plugin that tracks how long you've been idle — because time s
 {
   "praveenscript/idleClock.nvim",
   config = function()
-    require("idleclock").setup()
+    require("idleClock").setup()
   end,
 }
 ```
