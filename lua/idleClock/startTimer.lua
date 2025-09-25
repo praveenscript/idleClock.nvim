@@ -22,7 +22,7 @@ local function startTimer()
         local elapsed = 0
         while true do
             async.util.sleep(6000)
-            print(" 6 seconds has been passed")
+            -- print(" 6 seconds has been passed")
             elapsed = elapsed + 6
 
             M.timeSpent = format_time(elapsed)

@@ -41,7 +41,7 @@ function M.setup(opts)
     callback = function()
       triggersCounts = triggersCounts + 1 -- increment every 1 time
       startWaiting(triggersCounts)
-      print("Yo LOl", triggersCounts)
+      -- print("Yo LOl", triggersCounts)
       startTimer.stop = true
       if floatingClock.created then
         floatingClock.close()
