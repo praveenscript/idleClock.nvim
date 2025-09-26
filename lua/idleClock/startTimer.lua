@@ -18,6 +18,7 @@ end
 
 
 local function startTimer()
+    M.stop = false
     async.run(function()
         local elapsed = 0
         while true do
