@@ -2,6 +2,13 @@
 
 A minimal Neovim plugin that tracks how long you've been idle — because time slips quietly, and I needed to see it.
 
+#### How it works?
+Basically, like after specific time (30seconds) or more, it shows the time you've been idle, I'll allow options to config this later, as of default it does a refresh of 6 seconds, just so it doesn't get your attention enough, though I'll add the option for that as well
+
+
+### Warning
+I'm new in coding so uh I can mess things up
+
 ## ✨ Features
 
 - Floating timer UI in the top-right corner
