@@ -18,12 +18,22 @@ I'm new in coding so uh I can mess things up
 
 ### Lazy.nvim
 
+Below is the default Config
+
 ```lua
 {
   "praveenscript/idleClock.nvim",
   config = function()
     require("idleClock").setup()
   end,
+}
+```
+
+Here is how you can add your own
+
+```lua
+opts = {
+   idleTimeLimit = 30 -- Default is 30, ex: after 30 seconds the clock will show itself
 }
 ```
 
