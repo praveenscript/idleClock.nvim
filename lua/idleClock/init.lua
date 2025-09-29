@@ -37,7 +37,7 @@ function M.setup(opts)
 
 
   -- Reset on any user activity
-  vim.api.nvim_create_autocmd({ "CursorMoved", "InsertEnter", "BufWritePost" }, {
+  vim.api.nvim_create_autocmd({ "CursorMoved", "InsertEnter", "BufWritePost", "TextChangedI" }, {
     callback = function()
       triggersCounts = triggersCounts + 1 -- increment every 1 time
       startWaiting(triggersCounts)
