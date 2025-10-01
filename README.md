@@ -22,7 +22,7 @@ Below is the default Config
 
 ```lua
 {
-  "praveenscript/idleClock.nvim",
+  "pravyhn/idleClock.nvim",
   config = function()
     require("idleClock").setup()
   end,
